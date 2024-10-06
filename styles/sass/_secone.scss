@@ -1,0 +1,44 @@
+.sec-one {
+  padding: 50px 136px;
+  .cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px;
+  }
+  .card {
+    width: 379px;
+    height: 304px;
+    padding: 30px;
+    background-color: rgba(244, 243, 240, 1);
+    h2 {
+      padding-top: 9px;
+      color: rgba(58, 95, 86, 1);
+    }
+    p {
+      padding: 6px 0px;
+    }
+    .darkgreen {
+      padding-top: 11px;
+      color: rgba(58, 95, 86, 1);
+    }
+  }
+}
+@media (max-width: 1450px) {
+  .sec-one {
+    .cards {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 16px;
+    }
+  }
+}
+@media (max-width: 1010px) {
+  .sec-one {
+    .cards {
+      display: grid;
+      grid-template-columns: auto;
+
+      gap: 16px;
+    }
+  }
+}

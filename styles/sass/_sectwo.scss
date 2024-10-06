@@ -1,0 +1,45 @@
+.sec-two {
+  padding: 100px 110px;
+  background-color: rgba(244, 243, 240, 1);
+  .cards_two {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 16px;
+    .card-two {
+      img{
+        width: 100%;
+      }
+      background-color: white;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      color: rgba(58, 95, 86, 1);
+      width: 60%;
+      height: 100%;
+      h2 {
+        padding: 6px 30px;
+        padding-bottom: 6px;
+      }
+      p {
+        padding: 0px 30px;
+      }
+    }
+  }
+}
+@media (max-width: 1400px) {
+  .sec-two {
+    .cards_two {
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 56px;
+    }
+  }
+}
+@media (max-width: 995px) {
+  .sec-two {
+    .cards_two {
+      display: grid;
+      grid-template-columns: auto;
+      gap: 56px;
+    }
+  }
+}

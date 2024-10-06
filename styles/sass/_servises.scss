@@ -1,0 +1,26 @@
+.services {
+  padding-top: 100px;
+  padding-bottom: 47px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  h2 {
+    font-size: 48px;
+    color: rgba(58, 95, 86, 1);
+  }
+  p {
+    color: rgba(58, 95, 86, 1);
+    font: size 16px;
+    width: 30vw;
+    text-align: center;
+  }
+  .red-title-services {
+    color: rgba(219, 52, 59, 1);
+  }
+}
+@media (max-width: 525px) {
+  .services {
+   text-align: center;
+  }
+}

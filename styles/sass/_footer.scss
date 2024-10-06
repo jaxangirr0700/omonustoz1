@@ -1,0 +1,223 @@
+footer {
+  background-color: rgba(41, 44, 50, 1);
+  padding: 100px 136px;
+  text-align: center;
+  img {
+    padding-bottom: 75px;
+  }
+
+  .footer-cards {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    .footer-card {
+      text-align: start;
+      display: flex;
+      flex-direction: column;
+
+      gap: 16px;
+      .input {
+        position: relative;
+        input {
+          width: 400px;
+          border-radius: 10px;
+          padding: 14px 25px;
+          border: none;
+        }
+        button {
+          padding: 7px 10px;
+          color: white;
+          background-color: rgba(41, 44, 50, 1);
+          border: none;
+          border-radius: 10px;
+          top: 10px;
+          left: 320px;
+          position: absolute;
+          z-index: 7;
+          &:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+          }
+        }
+      }
+
+      .chokolate-color {
+        color: rgba(184, 125, 88, 1);
+      }
+    }
+  }
+  .footer {
+    max-width: 1990px;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    .internet {
+      display: flex;
+      gap: 20px;
+      img {
+        &:hover {
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1050px) {
+  footer {
+    .footer-cards {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+  }
+}
+@media (max-width: 888px) {
+  footer {
+    .footer-cards {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 665px) {
+  footer {
+    background-color: rgba(41, 44, 50, 1);
+    padding: 100px 136px;
+    text-align: center;
+    img {
+      padding-bottom: 75px;
+    }
+
+    .footer-cards {
+      display: grid;
+      grid-template-columns: auto auto;
+      color: white;
+      .footer-card {
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+
+        gap: 16px;
+        .input {
+          position: relative;
+          input {
+            width: 200px;
+            border-radius: 10px;
+            padding: 14px 25px;
+            border: none;
+          }
+          button {
+            padding: 7px 10px;
+            color: white;
+            background-color: rgba(41, 44, 50, 1);
+            border: none;
+            border-radius: 10px;
+            top: 10px;
+            left: 130px;
+            position: absolute;
+            z-index: 7;
+            &:hover {
+              transform: scale(1.1);
+              transition: 0.5s;
+            }
+          }
+        }
+
+        .chokolate-color {
+          color: rgba(184, 125, 88, 1);
+        }
+      }
+    }
+    .footer {
+      max-width: 1990px;
+      padding-top: 25px;
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      .internet {
+        display: flex;
+        gap: 20px;
+        img {
+          &:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 665px) {
+  footer {
+    background-color: rgba(41, 44, 50, 1);
+    padding: 100px 136px;
+    text-align: center;
+    img {
+      padding-bottom: 75px;
+    }
+
+    .footer-cards {
+      display: grid;
+      grid-template-columns: auto;
+      color: white;
+      .footer-card {
+        text-align: start;
+        display: flex;
+        flex-direction: column;
+
+        gap: 16px;
+        .input {
+          position: relative;
+          input {
+            width: 200px;
+            border-radius: 10px;
+            padding: 14px 25px;
+            border: none;
+          }
+          button {
+            padding: 7px 10px;
+            color: white;
+            background-color: rgba(41, 44, 50, 1);
+            border: none;
+            border-radius: 10px;
+            top: 10px;
+            left: 130px;
+            position: absolute;
+            z-index: 7;
+            &:hover {
+              transform: scale(1.1);
+              transition: 0.5s;
+            }
+          }
+        }
+
+        .chokolate-color {
+          color: rgba(184, 125, 88, 1);
+        }
+      }
+    }
+    .footer {
+      max-width: 1990px;
+      padding-top: 25px;
+      display: flex;
+      justify-content: space-between;
+      color: white;
+      .internet {
+        display: flex;
+        gap: 20px;
+        img {
+          &:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
+          }
+        }
+      }
+    }
+  }
+}
